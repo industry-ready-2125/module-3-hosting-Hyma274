@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        /* Optional styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .option {
+            margin-bottom: 5px;
+        }
+        .button-container{
+            display: flex;
+            margin-left: 150px;
+            margin-top: 50px;
+        }            
+        button{
+            margin-right: 30px;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <form name="question">
+        <div class="question">
+            <h2>1. What is the capital of France?</h2>
+        </div>
+        
+        <ul class="options">
+            <li class="option">
+                <label>
+                    <input type="radio" name="capital" value="paris"> Paris
+                </label>
+            </li>
+            
+            <li class="option">
+                <label>
+                    <input type="radio" name="capital" value="berlin"> Berlin
+                </label>
+            </li>
+            
+            <li class="option">
+                <label>
+                    <input type="radio" name="capital" value="rome"> Rome
+                </label>
+            </li>
+            
+            <li class="option">
+                <label>
+                    <input type="radio" name="capital" value="madrid"> Madrid
+                </label>
+            </li>
+        </ul>
+        <br>
+        <br><br>
+        <br>
+        <hr>
+
+        <!-- Add a submit button if needed -->
+    <div class="button-container">
+        <button style="background-color: green;">save&next</button>
+        <button style="background-color: orange;">save&mark for reviw</button>
+        <button style="background-color: white;">Clear response</button>
+        <button style="background-color: blue;">Mark for review & next</button>
+        </div>
+    </body>
+</html>
+
+    </form>
+
+</body>
+</html>

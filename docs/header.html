@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; 
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 20px;;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.timer {
+  font-size: 15px;
+  font-family: monospace;
+  margin-top: 20px;
+}
+
+.digit {
+  display: inline-block;
+  width: 2px;
+  height: 5px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 0 0.05em;;
+  border-radius: 5px;
+}
+
+.separator {
+  display: inline-block;
+  margin:  0 0.01em;;
+  color: #333;
+}
+</style>
+</head>
+<body>
+    <h2 style="color: orange; margin-left:5px; margin-top:30px; margin-right:100px;">JEEE MAINS</h2>
+  <div class="container">
+    <div class="buttons">
+      <button>Physics</button>
+      <button>Mathematics</button>
+      <button>Chemistry</button>
+    </div>
+    <div class="timer">
+      <span class="digit">0</span>
+      <span class="digit">3</span>
+      <span class="separator">:</span>
+      <span class="digit">0</span>
+      <span class="digit">0</span>
+    </div>
+  </div>
+
+</body>
+</html>
